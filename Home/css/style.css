@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@200&family=Rubik:wght@300;500&display=swap");
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.more_popular_places {
+  padding-top: 142px;
+  padding-bottom: 150px;
+}
+.more_popular_places h3 {
+  font-size: 38px;
+  font-weight: bold;
+  padding-bottom: 7px;
+  color: black;
+  margin-bottom: 62px;
+  margin-top: 0px;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+}
+.container3 {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.single_place {
+  position: relative;
+  box-shadow: 10px 10px 150px -80px black;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 350px;
+  background: linear-gradient(90deg, rgb(111, 248, 248), rgb(255, 255, 255));
+  transition: 0.5s;
+}
+.thumb img {
+  width: 350px;
+  height: 197px;
+  vertical-align: middle;
+  border-style: none;
+  border-radius: 2% 2% 0% 0%;
+}
+.place_info h3 {
+  margin-left: 20px;
+  text-align: left;
+  font-size: 22px;
+  font-weight: bold;
+  color: #040e27;
+  margin-bottom: 8px;
+  transition: 0.3s;
+}
+
+.place_info a {
+  text-decoration: none;
+}
+.place_info {
+  padding: 10px;
+}
+.place_info p {
+  margin-left: 20px;
+  margin-bottom: 16px;
+}
+.price:hover {
+  background: #ff4a52;
+  transition: 0.5s;
+}
+.fa-star {
+  width: 10px;
+  font-size: 10px;
+  color: #fdae5c;
+}
+.days i {
+  margin-right: 8px;
+}
+.days a {
+  font-size: 14px;
+  color: #7a838b;
+}
+.rating_days a {
+  text-decoration: none;
+  color: black;
+}
+.rating_days {
+  font-weight: bold;
+}
+.single_place:hover {
+  transform: scale(1.1) translateY(-10px);
+  cursor: pointer;
+  background: linear-gradient(90deg, rgb(247, 125, 125), white);
+}
+.price {
+  position: absolute;
+  background: #1ec6b6;
+  padding: 7px 18px 7px 18px;
+  top: 20px;
+  left: 20px;
+  border-radius: 18px;
+  color: #fff;
+  font-size: 16px;
+  transition: 0.3s;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+}
+.fa-location-dot {
+  position: absolute;
+  top: 68%;
+}
+.days {
+  position: absolute;
+  left: 75%;
+  display: inline-block;
+  font-weight: bold;
+}
+.fa-earth-asia {
+  position: absolute;
+  top: 80%;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+.travel_variation {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 0 0 33.333%;
+  max-width: 33.333%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.variation_single {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6e6e6e;
+  line-height: 24px;
+}
+
+
+#blog{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  border: 1px solid rgb(0,0,0,0.05);
+}
+
+.blog-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blog-heading h2{
+  font-size: 40px;
+  font-weight: 600px;
+}
+
+.blog-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.blog-box{
+  margin: 20px;
+  width:350px;
+  background-color: white;
+  border: 1px solid whitesmoke;
+}
+
+.blog-img{
+  width: 100%;
+  height: auto;
+}
+
+.blog-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.blog-text{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.blog-text span{
+  color: #FF4A52;
+  font-size: 17px;
+}
+
+.blog-text .blog-title{
+  padding: 10px 0px;
+  font-size: 22px;
+  font-weight: 500px;
+  color: black;
+}
+
+.blog-text .blog-title:hover{
+  color: #1EC6B6;
+}
+
+.blog-text p{
+  color: grey;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 10px 0;
+}
+
+.blog-text a{
+  color: black;
+}
+
+.blog-text a:hover{
+  color: #1EC6B6;
+}
